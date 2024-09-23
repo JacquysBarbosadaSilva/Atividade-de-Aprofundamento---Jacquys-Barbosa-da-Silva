@@ -1,0 +1,175 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+input[type=number]::-webkit-outer-spin-button,
+input[type=number]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.pos-f-t{
+    position: relative;
+    z-index: 1000;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(#000000, #1b0022, #330040);
+}
+canvas {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    z-index: -10;
+}
+
+/* Home Page */
+
+.titulo-bem-vindo {
+    position: absolute;
+    width: 50%;
+    padding: 10px;
+    top: 50%;
+    border-radius: 20px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    background: rgba( 255, 255, 255);
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+
+.h1-bem-vindo{
+    font-size: 50px;
+}
+
+.paragrafo{
+    margin-top: 30px;
+    width: 100%;
+    text-align: center;
+}
+
+/* Login */
+
+.container {
+    z-index: 0;
+    position: absolute;
+    background-color: white;
+    border-radius: 15px;
+    padding: 15px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 40%;
+}
+
+.form-control {
+    display: block;
+    width: 100%;
+    height: calc(2.25rem + 2px);
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid;
+    border-radius: 10px;
+    transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+}
+
+#paragrafo-cadastro{
+    margin-bottom: 5px;
+    text-align: center;
+    border-bottom: 1px inset black;
+}
+
+
+#label-nome{
+    margin-top: 15px;
+}
+
+.h1-formulario{
+    text-align: center;
+
+    margin-bottom: 20px;
+}
+
+#btn-submit{
+    margin-top: 20px;
+    background: linear-gradient(to right, #000, #1b0022, #330040);
+    color: white;
+    width: 100%;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* Validação Formuçário */
+
+.container-cadastro-usuario{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cadastro-usuario {
+    margin-top: 20px;
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+    width: 50%;
+}
+
+#titulo-cadastro-usuario{
+    margin-top: 10px;
+    margin-bottom: -15px;
+    width: 50%;
+    text-align: start;
+}
+
+/* Feedback */
+.container-feedback-finalizado{
+    padding: 20px;
+}
+
+.feedback-final{
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+
+.titulo-feedback {
+    font-size: 24px;
+    font-weight: 600;
+    width: 100%;
+    color: #333;
+    margin-bottom: 30px;
+}
+
+
+#btn-submit {
+    margin-top: 20px;
+    background: linear-gradient(to right, #000, #1b0022, #330040);
+    color: white;
+    width: 100%;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+#btn-submit:hover {
+    background-color: #330040;
+}
+
+#titulo-info-feedback{
+    margin-top: 15px;
+}
