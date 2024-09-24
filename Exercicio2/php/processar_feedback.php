@@ -21,7 +21,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         <div class="collapse" id="navbarToggleExternalContent">
             <div class="bg-dark p-4">
                 <a href="../../index.php"><h6 class="text-white h6">Home</h6></a>
-                <a href="../../Exercicio1/php/formulario.php"><h6 class="text-white h6">Formulário</h6></a>
+                <a href="../../Exercicio1/php/formulario.php"><h6 class="text-white h6">Cadastro</h6></a>
                 <a href="../../Exercicio2/php/feedback.php"><h6 class="text-white h6">Feedback</h6></a>
                 <a href="../../Exercicio3/php/reserva.php"><h6 class="text-white h6">Reserva</h6></a>
             </div>
