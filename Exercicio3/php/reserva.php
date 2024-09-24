@@ -5,14 +5,14 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
         <link rel="stylesheet" href="../../css/style.css">
-        <title>Document</title>
+        <title>Reserva</title>
     </head>
     <body>
         <div class="pos-f-t">
             <div class="collapse" id="navbarToggleExternalContent">
                 <div class="bg-dark p-4">
                     <a href="../../index.php"><h6 class="text-white h6">Home</h6></a>
-                    <a href="../../Exercicio1/php/formulario.php"><h6 class="text-white h6">Formulário</h6></a>
+                    <a href="../../Exercicio1/php/formulario.php"><h6 class="text-white h6">Cadastro</h6></a>
                     <a href="../../Exercicio2/php/feedback.php"><h6 class="text-white h6">Feedback</h6></a>
                     <a href="#"><h6 class="text-white h6">Reserva</h6></a>
                 </div>

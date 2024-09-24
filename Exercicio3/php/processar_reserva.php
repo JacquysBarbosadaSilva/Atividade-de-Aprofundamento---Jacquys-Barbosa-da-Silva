@@ -12,7 +12,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Confirmação de Reserva</title>
+        <title>Reserva</title>
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
         <link rel="stylesheet" href="../../css/style.css"> <!-- Substitua pelo seu arquivo CSS -->
     </head>
@@ -21,7 +21,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         <div class="collapse" id="navbarToggleExternalContent">
                 <div class="bg-dark p-4">
                     <a href="../../index.php"><h6 class="text-white h6">Home</h6></a>
-                    <a href="../../Exercicio1/php/formulario.php"><h6 class="text-white h6">Formulário</h6></a>
+                    <a href="../../Exercicio1/php/formulario.php"><h6 class="text-white h6">Cadastro</h6></a>
                     <a href="../../Exercicio2/php/feedback.php"><h6 class="text-white h6">Feedback</h6></a>
                     <a href="#"><h6 class="text-white h6">Reserva</h6></a>
                 </div>
