@@ -30,6 +30,7 @@
             <div class="titulo-bem-vindo">
                 <h1 class="h1-bem-vindo">Bem-vindo ao nosso site!</h1>
                 <p class="paragrafo">Somos especialistas no desenvolvimento de soluções tecnológicas que impulsionam o futuro. Combinamos inovação, qualidade e eficiência para criar sistemas personalizados que atendem às suas necessidades</p>
+                <p>Jacquys Barbosa da Silva</p>
             </div>
         </main>
         <canvas></canvas>
